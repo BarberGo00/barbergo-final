@@ -8,7 +8,7 @@ export default function Experience() {
     "Horários flexíveis e personalizados",
     "Ao seu dispor ao seu conforto",
     "Experiência de qualidade garantida",
-  ];
+  
 
   return (
     <section id="experiencia" className="py-20 bg-white">
