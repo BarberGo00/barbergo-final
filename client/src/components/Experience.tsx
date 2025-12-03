@@ -6,7 +6,7 @@ export default function Experience() {
     "Profissionais altamente qualificados",
     "Produtos premium de alta performance",
     "Horários flexíveis e personalizados",
-    "",
+    "Ao seu dispor ao seu conforto",
     "Experiência de qualidade garantida",
   ];
 
