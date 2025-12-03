@@ -6,8 +6,8 @@ export default function Experience() {
     "Profissionais altamente qualificados",
     "Produtos premium de alta performance",
     "Horários flexíveis e personalizados",
-    "Ambiente privado e confortável",
-    "Experiência de luxo garantida",
+    "",
+    "Experiência de qualidade garantida",
   ];
 
   return (
@@ -28,7 +28,7 @@ export default function Experience() {
             {/* Main Description */}
             <div className="space-y-4">
               <p className="text-foreground leading-relaxed">
-                Nosso foco é o cliente de bom gosto, o turista que busca exclusividade e o morador que valoriza o conforto. Permita-se um momento de relaxamento e transformação com a vista do mar como cenário, seja na sua pousada, residência de veraneio .
+                Nosso foco é o cliente de bom gosto, o turista que busca exclusividade e o morador que valoriza o conforto. Permita-se um momento de relaxamento e transformação seja a vista do mar como cenário, na sua pousada ou na residência de veraneio .
               </p>
               <p className="text-foreground leading-relaxed">
                 Em Ilhabela, a beleza está em cada detalhe. Seu estilo não pode ser exceção. BarberGo é mais que um corte; é um ritual de bem-estar que se adapta ao seu ritmo, com a qualidade que você exige.
