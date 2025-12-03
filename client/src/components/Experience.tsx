@@ -9,7 +9,7 @@ export default function Experience() {
     "Ao seu dispor ao seu conforto",
     "Experiência de qualidade garantida",
   "",
-"",
+
   return (
     <section id="experiencia" className="py-20 bg-white">
       <div className="container mx-auto px-4">
