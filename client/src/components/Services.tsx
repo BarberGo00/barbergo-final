@@ -8,21 +8,21 @@ export default function Services() {
     {
       id: 1,
       title: "Corte Completo",
-      description: "Corte + Sobrancelha com técnica de visagismo e acabamento premium.",
+      description: 
       price: "R$ 90,00",
       icon: Scissors,
     },
     {
       id: 2,
-      title: "Barba Terapêutica",
-      description: "Ritual completo com toalha quente, óleos essenciais e massagem facial.",
+      title: "Barba ",
+      description: ,
       price: "R$ 50,00",
       icon: Sparkles,
     },
     {
       id: 3,
       title: "Pacote Completo",
-      description: "Corte + Sobrancelha + Barba. A transformação completa para o homem moderno.",
+      description: "Corte + Sobrancelha + Barba. ",
       price: "R$ 130,00",
       icon: Scissors,
       featured: true,
@@ -38,7 +38,7 @@ export default function Services() {
             Nossos Serviços Premium
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Cada serviço BarberGo é um investimento no seu visual e bem-estar, com produtos de alta performance e técnicas refinadas.
+            Cada serviço BarberGo é um investimento no seu visual e bem-estar.
           </p>
         </div>
 
