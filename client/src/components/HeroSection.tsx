@@ -11,7 +11,7 @@ export default function HeroSection() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: "url('/hero.png')",
-          backgroundAttachment: "fixed",
+         
         }}
       >
         <div className="absolute inset-0 bg-black/40"></div>
