@@ -7,22 +7,22 @@ export default function Services() {
   const services = [
     {
       id: 1,
-      title: "Corte Completo",
-      description: 
+      title: "Corte", // SIMPLIFICADO
+      description: "", // CORRIGIDO: Agora com aspas vazias
       price: "R$ 90,00",
       icon: Scissors,
     },
     {
       id: 2,
-      title: "Barba ",
-      description: ,
+      title: "Barba", // SIMPLIFICADO
+      description: "", // CORRIGIDO: Agora com aspas vazias
       price: "R$ 50,00",
       icon: Sparkles,
     },
     {
       id: 3,
-      title: "Pacote Completo",
-      description: "Corte + Sobrancelha + Barba. ",
+      title: "Pacote Completo", // SIMPLIFICADO
+      description: "", // CORRIGIDO: Agora com aspas vazias
       price: "R$ 130,00",
       icon: Scissors,
       featured: true,
@@ -44,7 +44,7 @@ export default function Services() {
 
         {/* Services Grid */}
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {services.map((service) => {
+          {services.map((service ) => {
             const IconComponent = service.icon;
             return (
               <div
@@ -120,3 +120,4 @@ export default function Services() {
     </section>
   );
 }
+
