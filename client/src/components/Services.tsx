@@ -7,22 +7,22 @@ export default function Services() {
   const services = [
     {
       id: 1,
-      title: "Corte", 
-      description: "", 
+      title: "Corte",
+      description: "",
       price: "R$ 90,00",
       icon: Scissors,
     },
     {
       id: 2,
-      title: "Barba", 
-      description: "", 
+      title: "Barba",
+      description: "",
       price: "R$ 50,00",
       icon: Sparkles,
     },
     {
       id: 3,
-      title: "Pacote Completo", 
-      description: "", 
+      title: "Pacote Completo",
+      description: "",
       price: "R$ 130,00",
       icon: Scissors,
       featured: true,
@@ -81,18 +81,7 @@ export default function Services() {
                   </p>
                 </div>
 
-                {/* CTA Button */}
-                <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="block">
-                  <Button
-                    className={`w-full font-semibold py-2 ${
-                      service.featured
-                        ? "bg-white text-primary hover:bg-white/90"
-                        : "bg-primary text-white hover:bg-primary/90"
-                    }`}
-                  >
-                    Agendar
-                  </Button>
-                </a>
+                {/* O BOTÃO "AGENDAR" FOI REMOVIDO DAQUI */}
 
                 {service.featured && (
                   <p className="text-center text-white/70 text-sm mt-4 font-semibold">
@@ -120,4 +109,3 @@ export default function Services() {
     </section>
   );
 }
-
