@@ -6,14 +6,14 @@ import MapSection from "./components/MapSection";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import MarketingGallery from "./components/MarketingGallery";
-import { Toaster } from "@/components/ui/toaster"; // <--- CORREÇÃO AQUI
+// import { Toaster } from "@/components/ui/toaster"; // LINHA REMOVIDA
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <>
-      <Toaster />
+      {/* <Toaster /> */} {/* LINHA REMOVIDA */}
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <main className="min-h-screen">
         <HeroSection />
