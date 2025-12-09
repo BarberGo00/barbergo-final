@@ -7,22 +7,22 @@ export default function Services() {
   const services = [
     {
       id: 1,
-      title: "Corte", // SIMPLIFICADO
-      description: "", // CORRIGIDO: Agora com aspas vazias
+      title: "Corte", 
+      description: "", 
       price: "R$ 90,00",
       icon: Scissors,
     },
     {
       id: 2,
-      title: "Barba", // SIMPLIFICADO
-      description: "", // CORRIGIDO: Agora com aspas vazias
+      title: "Barba", 
+      description: "", 
       price: "R$ 50,00",
       icon: Sparkles,
     },
     {
       id: 3,
-      title: "Pacote Completo", // SIMPLIFICADO
-      description: "", // CORRIGIDO: Agora com aspas vazias
+      title: "Pacote Completo", 
+      description: "", 
       price: "R$ 130,00",
       icon: Scissors,
       featured: true,
