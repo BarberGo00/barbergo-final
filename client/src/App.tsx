@@ -1,13 +1,12 @@
-// Linha 1
 import { useState } from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Services from "./components/Services";
-import MapSection from "./components/MapSection"; // <--- ADICIONE ESTA LINHA
+import MapSection from "./components/MapSection";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import MarketingGallery from "./components/MarketingGallery";
-import { Toaster } from "./components/ui/toaster";
+import { Toaster } from "@/components/ui/toaster"; // <--- CORREÇÃO AQUI
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +19,7 @@ function App() {
         <HeroSection />
         <Experience />
         <Services />
-        <MapSection /> {/* <--- ADICIONE ESTA LINHA */}
+        <MapSection />
         <MarketingGallery />
       </main>
       <Footer />
