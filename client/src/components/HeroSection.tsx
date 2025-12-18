@@ -8,7 +8,7 @@ export default function HeroSection() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat" // CORREÇÃO APLICADA AQUI
+        className="absolute inset-0 bg-cover bg-center" // AQUI ESTÁ SEM O bg-no-repeat
         style={{
           backgroundImage: "url('/hero.png' )",
         }}
@@ -30,8 +30,8 @@ export default function HeroSection() {
           </div>
 
           {/* Main Heading */}
-          <div className="relative flex flex-col items-center justify-center min-h-screen pt-20 pb-10 text-center text-white">
-            <h1 className="text-4xl md:text-7xl font-bold leading-tight"> {/* CORREÇÃO APLICADA AQUI (text-4xl) */}
+          <div className="relative flex flex-col items-center justify-center min-h-screen pt-20 pb-10 text-center text-white bg-cover bg-center bg-no-repeat">
+            <h1 className="text-5xl md:text-7xl font-bold leading-tight"> {/* AQUI ESTÁ COM O text-5xl ORIGINAL */}
               Seu Estilo,
                 
 
@@ -75,3 +75,5 @@ export default function HeroSection() {
     </section>
   );
 }
+
+            
