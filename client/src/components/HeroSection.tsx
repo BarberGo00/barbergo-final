@@ -8,15 +8,9 @@ export default function HeroSection() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div
-       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-    style={{
-        backgroundImage: `url('/hero.png')`,
-    }}
->
-
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat" // CORREÇÃO APLICADA AQUI
         style={{
-          backgroundImage: "url('/hero.png')",
-         
+          backgroundImage: "url('/hero.png' )",
         }}
       >
         <div className="absolute inset-0 bg-black/40"></div>
@@ -32,17 +26,18 @@ export default function HeroSection() {
                 <Star key={i} size={20} fill="currentColor" className="text-yellow-400" />
               ))}
             </div>
-           <h1 className="text-4xl md:text-7xl font-bold leading-tight">
-
+            <span className="text-lg font-semibold">5.0 - Premium</span>
           </div>
-<div className="relative flex flex-col items-center justify-center min-h-screen pt-20 pb-10 text-center text-white bg-cover bg-center bg-no-repeat">
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Seu Estilo,
-            <br />
-            Onde Você Estiver
-          </h1>
+          <div className="relative flex flex-col items-center justify-center min-h-screen pt-20 pb-10 text-center text-white">
+            <h1 className="text-4xl md:text-7xl font-bold leading-tight"> {/* CORREÇÃO APLICADA AQUI (text-4xl) */}
+              Seu Estilo,
+                
+
+              Onde Você Estiver
+            </h1>
+          </div>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl font-light max-w-xl mx-auto leading-relaxed">
