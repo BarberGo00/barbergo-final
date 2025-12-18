@@ -8,7 +8,12 @@ export default function HeroSection() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+    style={{
+        backgroundImage: `url('/hero.png')`,
+    }}
+>
+
         style={{
           backgroundImage: "url('/hero.png')",
          
@@ -27,8 +32,10 @@ export default function HeroSection() {
                 <Star key={i} size={20} fill="currentColor" className="text-yellow-400" />
               ))}
             </div>
-            <span className="text-lg font-semibold">5.0 - Premium</span>
+           <h1 className="text-4xl md:text-7xl font-bold leading-tight">
+
           </div>
+<div className="relative flex flex-col items-center justify-center min-h-screen pt-20 pb-10 text-center text-white bg-cover bg-center bg-no-repeat">
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
